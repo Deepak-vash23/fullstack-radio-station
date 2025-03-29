@@ -12,6 +12,7 @@ export default defineConfig({
   },
   server: {
     port: Number(process.env.PORT) || 10000, //  Use dynamic port for Render
-    host: "0.0.0.0"
+    host: "0.0.0.0",
+    allowedHosts: ["fullstack-radio-station.onrender.com"]
   }
 });
