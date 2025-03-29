@@ -4,6 +4,8 @@
     "allowImportingTsExtensions": true,
     "noEmit": true,
      "jsx": "react-jsx",
-     "types": ["react", "react-dom", "node"]
+     "types": ["react", "react-dom", "node"],
+     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   }
 }
